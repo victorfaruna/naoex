@@ -63,15 +63,9 @@ export default function RootLayout({
             className={`${leagueSpartan.variable} ${dmSans.variable} ${ibmPlexMono.variable} ${urbanist.variable}`}
         >
             <head>
-                <link rel="shortcut icon" href="/favicon.png"></link>
-                <link
-                    rel="stylesheet"
-                    href="/assets/font/font-awesome.css"
-                ></link>
-                <link
-                    rel="apple-touch-icon-precomposed"
-                    href="/favicon.png"
-                ></link>
+                <link rel="icon" href="/favicon.png" sizes="any" />
+                <link rel="stylesheet" href="/assets/font/font-awesome.css" />
+                <link rel="apple-touch-icon-precomposed" href="/favicon.png" />
             </head>
             <body className="header-fixed main">
                 <Preloader />
