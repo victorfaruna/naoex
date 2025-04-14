@@ -57,7 +57,7 @@ export default function Header() {
 
     // Toggle the main mobile menu.
     const toggleMobileMenu = () => {
-        setMobileMenuOpen((prev) => !prev);
+        setMobileMenuOpen(!mobileMenuOpen);
     };
 
     // Toggle a submenu by its menu index.
