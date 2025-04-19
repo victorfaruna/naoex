@@ -7,9 +7,26 @@
     --font-urbanist: "Urbanist", sans-serif;
 }
 
+:root[data-theme="light"] {
+    --color-1: #f3fcf9;
+    --color-2: #000;
+    --color-3: #e3eeec;
+    --color-4: #3c3c3c;
+    --color-5: #71efd8;
+    --color-6: rgb(138, 169, 190);
+}
+
+:root[data-theme="dark"] {
+    --color-1: #0c1226;
+    --color-2: #fff;
+    --color-3: #121d3e;
+    --color-4: #efefff;
+    --color-5: #14c2a3;
+    --color-6: #0e2230;
+}
+
 @theme inline {
-    --color-background: var(--background);
-    --color-foreground: var(--foreground);
-    --font-sans: var(--font-geist-sans);
-    --font-mono: var(--font-geist-mono);
+    --color-background-color: var(--background-color);
+    --color-color-1: var(--color-1);
+    --color-color-2: var(--color-2);
 }

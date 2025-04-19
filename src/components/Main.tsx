@@ -76,7 +76,7 @@ export default function Main() {
                                                 <span className="wrap"></span>
                                             </h1> */}
                                             <p
-                                                className="sub-title"
+                                                className="sub-title text-[#B9B9BF]"
                                                 style={{ fontSize: "24px" }}
                                             >
                                                 Own a share of high-value Real

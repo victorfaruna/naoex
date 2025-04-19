@@ -14,6 +14,7 @@ import "./globals.css";
 import "@/utils/bootstrap/css/bootstrap.css";
 import "@/utils/swiper/swiper-bundle.min.css";
 import "@/utils/dist/app.css";
+import ThemeProvider from "@/providers/ThemeProvider";
 
 //fonts config....................
 const leagueSpartan = League_Spartan({
@@ -68,17 +69,19 @@ export default function RootLayout({
                 <link rel="apple-touch-icon-precomposed" href="/favicon.png" />
             </head>
             <body className="header-fixed main">
-                <Preloader />
-                {/* Header */}
-                <Header />
-                {/* wrapper */}
-                <div id="wrapper"> {children}</div>
-                <script src="/js/jquery.min.js"></script>
-                <script src="/js/bootstrap.min.js"></script>
-                <script src="/js/swiper-bundle.min.js"></script>
-                <script src="/js/swiper.js"></script>
-                <script src="/js/app.js"></script>
-                <script src="/js/jquery.easing.js"></script>
+                <ThemeProvider>
+                    <Preloader />
+                    {/* Header */}
+                    <Header />
+                    {/* wrapper */}
+                    <div id="wrapper"> {children}</div>
+                    <script src="/js/jquery.min.js"></script>
+                    <script src="/js/bootstrap.min.js"></script>
+                    <script src="/js/swiper-bundle.min.js"></script>
+                    <script src="/js/swiper.js"></script>
+                    <script src="/js/app.js"></script>
+                    <script src="/js/jquery.easing.js"></script>
+                </ThemeProvider>
             </body>
         </html>
     );

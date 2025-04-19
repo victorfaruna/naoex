@@ -73,7 +73,7 @@ const Typewriter: React.FC<TypewriterProps> = ({
     }, []);
 
     return (
-        <h1 className="title typewrite">
+        <h1 className="title typewrite text-[#fff!important]">
             Diversify Your Portfolio, Own a Piece of{" "}
             <span className="wrap">{textRef.current}</span>
         </h1>
