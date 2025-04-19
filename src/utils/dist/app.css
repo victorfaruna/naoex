@@ -907,8 +907,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: url("../../assets/images/backgroup/bg-1.jpg") center center
-        no-repeat;
+    background: var(--hero-bg);
     background-size: cover;
 }
 .main .page-title .slider-st2 {
@@ -2980,6 +2979,12 @@
     height: 2px;
     width: 80px;
     background: #14c2a3;
+}
+
+.eco-img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
 }
 
 #sidebar .widget.widget-category.st2 {

@@ -9,7 +9,7 @@ interface GlobalStore {
 export const useGlobalStore = create<GlobalStore>()(
     persist(
         (set) => ({
-            theme: "dark",
+            theme: "light",
             setTheme: (theme) => set({ theme }),
         }),
         { name: "global-storage" }

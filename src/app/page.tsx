@@ -15,15 +15,19 @@ import Partners from "@/components/Partners";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import HowWeWork from "@/components/HowWeWork";
+import Ecosystem from "@/components/Ecosystem";
 export default function HomePage() {
     return (
         <>
             <Main />
             <ComingSoon />
             <About />
+            <HowWeWork />
             <Featured />
             <Works />
             <FeaturedSecond />
+            <Ecosystem />
             <Roadmap />
             <Token />
             <PrivateInvestorsProgram />

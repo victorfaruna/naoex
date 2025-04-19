@@ -113,7 +113,6 @@ export default function Header() {
             }
         };
     }, []);
-
     const { theme, setTheme } = useGlobalStore();
     const handledThemeToggle = () => {
         setTheme(theme === "dark" ? "light" : "dark");
@@ -123,7 +122,9 @@ export default function Header() {
         // Add a conditional "nav-open" class when the nav button is toggled.
         <header
             id="header_main"
-            className={`header ${mobileMenuOpen ? "nav-open" : "nav-close"}`}
+            className={`header ${mobileMenuOpen === true ? "nav-open" : ""} ${
+                isHeaderFixed ? "is-fixed is-small" : ""
+            }`}
         >
             <div className="container">
                 <div id="site-header-inner">
@@ -202,14 +203,35 @@ export default function Header() {
 
                     {/* Mobile Navigation Button – rendered on mobile screens */}
                     {isMobile && (
-                        <div className="mobile-button">
+                        <div className="mobile-buttonn absolute right-[15px]">
                             <button
                                 onClick={toggleMobileMenu}
                                 aria-label="Toggle mobile menu"
                             >
-                                <span
-                                    className={mobileMenuOpen ? "active" : ""}
-                                ></span>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="#fff"
+                                    viewBox="0 0 24 24"
+                                    strokeWidth="1.5"
+                                    stroke="#fff"
+                                    className="size-8 transition-all duration-300 ease-in-out"
+                                >
+                                    {mobileMenuOpen ? (
+                                        <path
+                                            className="transition-all duration-300 ease-in-out"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M6 18 18 6M6 6l12 12"
+                                        />
+                                    ) : (
+                                        <path
+                                            className="transition-all duration-300 ease-in-out"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                                        />
+                                    )}
+                                </svg>
                             </button>
                         </div>
                     )}

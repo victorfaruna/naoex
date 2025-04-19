@@ -14,6 +14,8 @@
     --color-4: #3c3c3c;
     --color-5: #71efd8;
     --color-6: rgb(138, 169, 190);
+    --hero-bg: url("../assets/images/backgroup/bg-2.png") center center
+        no-repeat;
 }
 
 :root[data-theme="dark"] {
@@ -23,6 +25,8 @@
     --color-4: #efefff;
     --color-5: #14c2a3;
     --color-6: #0e2230;
+    --hero-bg: url("../assets/images/backgroup/bg-1.jpg") center center
+        no-repeat;
 }
 
 @theme inline {

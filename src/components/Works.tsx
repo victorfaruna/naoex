@@ -5,75 +5,78 @@ export default function Works() {
         <section className="tf-section how-we-work style2 bg-st2 " id="works">
             <div className="container">
                 <div className="row">
-                    <div className="col-xl-5 col-lg-5 col-md-12">
+                    <div className="col-xl-12 col-lg-12 col-md-12">
                         <div
-                            className="tf-title st2 m-b60"
+                            className="tf-title m-b60"
                             data-aos="fade-up"
                             data-aos-duration="800"
                         >
                             <p className="h8 sub-title">How it works</p>
-                            <h4 className="title m-b17">
-                                Seamless Real World Asset Ownership in Four
-                                Simple Steps
+                            <h4 className="title center m-b17">
+                                Start Investing in Tokenized Real-World Assets
                             </h4>
                             <p>
-                                The implementation of Real-World Assets through
-                                tokenization offers innovative solutions across
-                                various industries. By leveraging blockchain
-                                technology, companies can enhance transparency,
-                                reduce barriers to investment, and increase
-                                liquidity in traditionally illiquid markets. As
-                                these practices evolve, they hold the potential
-                                to reshape how we interact with tangible assets
-                                in the digital age.
+                                Getting started with NanoEx RWA is simple!
+                                Follow these easy steps to invest in tokenized
+                                real-world assets securely and efficiently.
                             </p>
-                            <a className="tf-button st2 btn-effect" href="#">
-                                <span className="boder-fade"></span>
-                                <span className="effect">More Details</span>
-                            </a>
                         </div>
                     </div>
-                    <div className="col-xl-7 col-lg-7 col-md-12">
+                    <div className="col-xl-12 col-lg-12 col-md-12">
                         <div
-                            className="wrap-fx ml30-fx p-l70"
+                            className="wrap-fx ml30-fx"
                             data-aos="fade-up"
                             data-aos-duration="800"
                         >
                             <div className="box-text st2 corner-box active">
                                 <div className="number">01</div>
-                                <div className="h7">Browse Asset Classes</div>
+                                <div className="h7">Sign Up & Verify</div>
                                 <p>
-                                    Explore our Asset Page to discover the
-                                    perfect investment opportunity.
+                                    Create an account on NanoEx RWA, complete
+                                    KYC verification, and secure your wallet for
+                                    seamless and secure asset transactions.
                                 </p>
                             </div>
                             <div className="box-text st2 corner-box">
                                 <div className="number">02</div>
-                                <div className="h7">Invest, stake & Earn</div>
+                                <div className="h7">Fund Your Wallet</div>
                                 <p>
-                                    Select your desired Asset and token
-                                    quantity, proceed to checkout, and secure
-                                    your investment. Stake or Farm Passive
-                                    Benefits.
+                                    Deposit funds using crypto or fiat through
+                                    our integrated fiat-to-crypto gateway,
+                                    ensuring fast, convenient, and secure
+                                    transactions.
                                 </p>
                             </div>
                             <div className="box-text st2 mobie-mb-0 mobie-mb-30 corner-box ">
                                 <div className="number">03</div>
-                                <div className="h7">Monitor Your Portfolio</div>
+                                <div className="h7">
+                                    Explore & Select Assets
+                                </div>
                                 <p>
-                                    Use our real-time dashboard to keep track of
-                                    your real world assets and transaction
-                                    details.
+                                    Browse tokenized real estate, commodities,
+                                    collectibles, and more in our RWA
+                                    marketplace with full transparency and
+                                    accurate valuation insights.
                                 </p>
                             </div>
                             <div className="box-text st2 mobie-mb-0 corner-box">
                                 <div className="number">04</div>
-                                <div className="h7">Easily Liquidate</div>
+                                <div className="h7">Invest & Trade</div>
                                 <p>
-                                    List your tokens on our resale marketplace
-                                    for quick liquidation. Tokens get listed on
-                                    the marketplace for potential buyers to
-                                    purchase.
+                                    Purchase fractional or full ownership tokens
+                                    using nRWA and trade them in a decentralized
+                                    marketplace for liquidity, security, and
+                                    flexibility.
+                                </p>
+                            </div>
+                            <div className="box-text st2 mobie-mb-0 corner-box">
+                                <div className="number">04</div>
+                                <div className="h7">Earn & Manage Holdings</div>
+                                <p>
+                                    Stake your tokens, earn passive income, and
+                                    access exclusive investment opportunities
+                                    through staking rewards, governance rights,
+                                    and revenue sharing.
                                 </p>
                             </div>
                         </div>
