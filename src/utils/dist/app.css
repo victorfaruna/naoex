@@ -1968,6 +1968,7 @@
     padding: 13px 15px 13px 18px;
     font-size: 15px;
     color: var(--color-4);
+    border: 1px solid var(--color-5);
 }
 .form-contact input[type="text"]:focus,
 .form-contact input[type="password"]:focus,
@@ -1990,6 +1991,7 @@
     font-size: 15px;
     line-height: 1.73;
     padding: 20px 15px 13px 18px;
+    border: 1px solid var(--color-5);
 }
 .form-contact button {
     height: 66px;
