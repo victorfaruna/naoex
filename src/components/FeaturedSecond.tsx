@@ -14,10 +14,10 @@ export default function FeaturedSecond() {
                             data-aos="fade-up"
                             data-aos-duration="800"
                         >
-                            <p className="h8 sub-title">NANOEX Ecosystem</p>
                             <h4 className="title m-b17">
                                 More Benefits through our Ecosystem
                             </h4>
+                            <p className="h8 sub-title">NANOEX Ecosystem</p>
                         </div>
                     </div>
                     <div className="col-md-12">
@@ -41,7 +41,7 @@ export default function FeaturedSecond() {
                                     alt=""
                                 />
                                 <div className="content">
-                                    <Link href="#">NanoPay</Link>
+                                    <a href="#">NanoPay</a>
                                 </div>
                             </div>
                             <div className="img-box">
@@ -50,7 +50,7 @@ export default function FeaturedSecond() {
                                     alt=""
                                 />
                                 <div className="content">
-                                    <Link href="#">Affiliate Program</Link>
+                                    <a href="#">Affiliate Program</a>
                                 </div>
                             </div>
                             <div className="img-box">
@@ -59,7 +59,7 @@ export default function FeaturedSecond() {
                                     alt=""
                                 />
                                 <div className="content">
-                                    <Link href="#">Fiat-to-Crypto (P2P)</Link>
+                                    <a href="#">Fiat-to-Crypto (P2P)</a>
                                 </div>
                             </div>
                             <div className="img-box">
@@ -68,7 +68,7 @@ export default function FeaturedSecond() {
                                     alt=""
                                 />
                                 <div className="content">
-                                    <Link href="#">Launchpad</Link>
+                                    <a href="#">Launchpad</a>
                                 </div>
                             </div>
                             <div className="img-box">
@@ -77,7 +77,7 @@ export default function FeaturedSecond() {
                                     alt=""
                                 />
                                 <div className="content">
-                                    <Link href="#">Reward Hub</Link>
+                                    <a href="#">Reward Hub</a>
                                 </div>
                             </div>
                             <div className="img-box">
@@ -95,7 +95,7 @@ export default function FeaturedSecond() {
                                     alt=""
                                 />
                                 <div className="content">
-                                    <Link href="#">Debit Crypto Card</Link>
+                                    <a href="#">Debit Crypto Card</a>
                                 </div>
                             </div>
                         </div>

@@ -70,7 +70,7 @@ export default function Works() {
                                 </p>
                             </div>
                             <div className="box-text st2 mobie-mb-0 corner-box">
-                                <div className="number">04</div>
+                                <div className="number">05</div>
                                 <div className="h7">Earn & Manage Holdings</div>
                                 <p>
                                     Stake your tokens, earn passive income, and
