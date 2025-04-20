@@ -201,7 +201,7 @@
 .tf-button .boder-fade {
     position: absolute;
     transition: all 0.1s;
-    border: 2px solid #f4ce14;
+    border: 2px solid var(--color-5);
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -394,7 +394,7 @@
 }
 .tf-title .sub-title {
     line-height: 1.6;
-    color: #f4ce14;
+    color: var(--color-5);
     text-transform: uppercase;
     font-family: "IBM Plex Mono", monospace;
     margin-bottom: 8px;
@@ -2100,11 +2100,17 @@
     z-index: 1;
 }
 .img-box .content a {
-    font-size: 14px;
+    font-size: 17px;
     line-height: 1.4;
     text-transform: uppercase;
     color: var(--color-2);
     font-family: "League Spartan", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .img-box .content a {
+        font-size: 16px;
+    }
 }
 .img-box .content a:hover {
     color: #14c2a3;
@@ -6963,8 +6969,15 @@ h3,
 
 h4,
 .h4 {
-    font-size: 44px;
+    font-size: 30px;
     line-height: 1.25;
+}
+
+@media (max-width: 768px) {
+    h1,
+    .h1 {
+        font-size: 20px;
+    }
 }
 
 h5,
